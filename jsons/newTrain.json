@@ -1,0 +1,12 @@
+{
+    "status": "success",
+    "created": [
+        {
+            "uid": "admin@SecureTransactionSystem",
+            "training_set_size": 1,
+            "last_trained": 1691248811,
+            "training_in_progress": false
+        }
+    ],
+    "operation_id": "d945be783e63431fa872dc85cf126bce"
+}

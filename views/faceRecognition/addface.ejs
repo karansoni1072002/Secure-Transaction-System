@@ -1,0 +1,5 @@
+<%- layout('layout/boilerplate.ejs') %>
+    <form action="/addface" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" id="image" required>
+        <button type="submit" class="btn btn-primary btn-info">Add Face</button>
+    </form>

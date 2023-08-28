@@ -1,0 +1,72 @@
+<%- layout('layout/boilerplate.ejs') %>
+
+    <form action="/netbanking/paymentpage" method="POST" novalidate class="validated-form">
+        <div class="mb-3">
+            <label for="nameofyourbank" class="form-label">Name of Your Bank</label>
+            <input type="text" class="form-control" id="nameofyourbank" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="accountnumber" class="form-label">Your Account Number</label>
+            <input type="number" class="form-control" id="accountnumber" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="yourifsc" class="form-label">Your IFSC</label>
+            <input type="text" class="form-control" id="yourifsc" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="nameofbeneficiarybank" class="form-label">Name of Beneficiary Bank</label>
+            <input type="text" class="form-control" id="nameofbeneficiarybank" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="nameofbeneficiary" class="form-label">Name of Beneficiary</label>
+            <input type="text" class="form-control" id="nameofbeneficiary" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="accountnumberofbeneficiary" class="form-label">Account Number of Beneficiary</label>
+            <input type="number" class="form-control" id="accountnumberofbeneficiary" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="ifscofbeneficiarybank" class="form-label">IFSC of Beneficiary Bank</label>
+            <input type="text" class="form-control" id="cardexpirydate" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="amount" class="form-label">Amount</label>
+            <input type="number" class="form-control" id="cvv" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="note" class="form-label">Add a note</label>
+            <input type="text" class="form-control" id="note">
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="cardcheckbox" required>
+            <label class="form-check-label" for="cardcheckbox">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-success">Pay Securely</button>
+    </form>

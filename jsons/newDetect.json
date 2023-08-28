@@ -1,0 +1,168 @@
+{
+    "status": "success",
+    "photos": [
+        {
+            "url": "https://res.cloudinary.com/divcrmitd/image/upload/v1691248592/SecureTransactionSystem/fips7ibttmueubr5lpaw.jpg",
+            "pid": "F@0cf4bcb965e4f307097bc0404190a119_4a6674d520ff4",
+            "width": 892,
+            "height": 1084,
+            "tags": [
+                {
+                    "uids": [],
+                    "label": null,
+                    "confirmed": false,
+                    "manual": false,
+                    "width": 11.88,
+                    "height": 12.55,
+                    "yaw": 0,
+                    "roll": 19,
+                    "pitch": -1,
+                    "attributes": {
+                        "face": {
+                            "value": "true",
+                            "confidence": 92
+                        },
+                        "gender": {
+                            "value": "female",
+                            "confidence": 14
+                        },
+                        "glasses": {
+                            "value": "true",
+                            "confidence": 70
+                        },
+                        "dark_glasses": {
+                            "value": "false",
+                            "confidence": 13
+                        },
+                        "smiling": {
+                            "value": "true",
+                            "confidence": 74
+                        },
+                        "age_est": {
+                            "value": "22",
+                            "confidence": 50
+                        },
+                        "mood": {
+                            "value": "happy",
+                            "confidence": 100
+                        },
+                        "lips": {
+                            "value": "parted",
+                            "confidence": 34
+                        },
+                        "eyes": {
+                            "value": "open",
+                            "confidence": 27
+                        },
+                        "neutral_mood": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "anger": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "disgust": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "fear": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "happiness": {
+                            "value": "true",
+                            "confidence": 100
+                        },
+                        "sadness": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "surprise": {
+                            "value": "false",
+                            "confidence": 0
+                        },
+                        "ethnicity": {
+                            "white": {
+                                "value": "false",
+                                "confidence": 13
+                            },
+                            "black": {
+                                "value": "false",
+                                "confidence": 2
+                            },
+                            "asian": {
+                                "value": "false",
+                                "confidence": 2
+                            },
+                            "indian": {
+                                "value": "true",
+                                "confidence": 66
+                            },
+                            "hispanic": {
+                                "value": "false",
+                                "confidence": 17
+                            }
+                        },
+                        "beard": {
+                            "value": "false",
+                            "confidence": 28
+                        },
+                        "mustache": {
+                            "value": "false",
+                            "confidence": 14
+                        },
+                        "hat": {
+                            "value": "false",
+                            "confidence": 41
+                        },
+                        "liveness": {
+                            "value": "true",
+                            "confidence": 67
+                        }
+                    },
+                    "points": null,
+                    "similarities": null,
+                    "tid": "TEMP_F@0cf4bcb965e4f307097bc04001e90174_4a6674d520ff4_54.82_34.32_0_1",
+                    "recognizable": true,
+                    "center": {
+                        "x": 54.82,
+                        "y": 34.32
+                    },
+                    "eye_left": {
+                        "x": 57.96,
+                        "y": 33.95,
+                        "confidence": 95,
+                        "id": 449
+                    },
+                    "eye_right": {
+                        "x": 52.69,
+                        "y": 32.38,
+                        "confidence": 97,
+                        "id": 450
+                    },
+                    "mouth_center": {
+                        "x": 53.59,
+                        "y": 36.9,
+                        "confidence": 95,
+                        "id": 615
+                    },
+                    "nose": {
+                        "x": 54.48,
+                        "y": 34.87,
+                        "confidence": 96,
+                        "id": 403
+                    }
+                }
+            ]
+        }
+    ],
+    "usage": {
+        "used": 10,
+        "remaining": 90,
+        "limit": 100,
+        "reset_time": 1691225239,
+        "reset_time_text": "Sat, 5 August 2023 08:47:19 +0000"
+    },
+    "operation_id": "3a8902869d3b4101a43e056de8d73067"
+}

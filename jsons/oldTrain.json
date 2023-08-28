@@ -1,0 +1,12 @@
+{
+    "status": "success",
+    "unchanged": [
+        {
+            "uid": "admin@SecureTransactionSystem",
+            "training_set_size": 1,
+            "last_trained": 1691248898,
+            "training_in_progress": false
+        }
+    ],
+    "operation_id": "878e0ea63ea34a989972fb45dfcb8e0d"
+}

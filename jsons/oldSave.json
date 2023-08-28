@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "saved_tags": [
+        {
+            "tid": "01e90174_4a6674d520ff4",
+            "detected_tid": "TEMP_F@0cf4bcb965e4f307097bc04001e90174_4a6674d520ff4_54.82_34.32_0_1"
+        }
+    ],
+    "message": "Tag saved with uid: admin@SecureTransactionSystem, label: ",
+    "operation_id": "9e538de2323a4ebc91ad930fcf1cfb1c"
+}

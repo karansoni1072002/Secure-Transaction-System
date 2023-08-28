@@ -1,0 +1,37 @@
+<%- layout('layout/boilerplate.ejs') %>
+
+    <form action="/verifyface" method="GET" novalidate class="validated-form">
+        <div class="mb-3">
+            <label for="upiId" class="form-label">Enter UPI Id</label>
+            <input type="text" class="form-control" id="upiId" aria-describedby="emailHelp" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="nameofreceiver" class="form-label">Enter name of receiver</label>
+            <input type="text" class="form-control" id="nameofreceiver" aria-describedby="emailHelp" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="amout" class="form-label">Enter Amount</label>
+            <input type="text" class="form-control" id="amout" aria-describedby="emailHelp" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="note" class="form-label">Add a note</label>
+            <input type="text" class="form-control" id="note" aria-describedby="emailHelp">
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="upicheckbox" required>
+            <label class="form-check-label" for="upicheckbox">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-success">Pay Securely</button>
+    </form>

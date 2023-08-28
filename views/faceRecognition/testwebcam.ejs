@@ -1,0 +1,22 @@
+<%- layout('layout/boilerplate.ejs') %>
+    <!-- <div>
+        <div class="booth">
+            <video id="video" width="50%" height="50%" autoplay>
+            </video>
+        </div>
+        <form action="/testwebcam" method="POST">
+            <button class="btn btn-success" onclick="start()">Test Webcam</button>
+            <button class="btn btn-success" onclick="stop()">close Webcam</button>
+        </form>
+    </div> -->
+    <img id="webcamImage" src="" alt="Webcam Stream">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const webcamImage = document.getElementById('webcamImage');
+        const socket = io();
+
+        socket.on('image', (data) => {
+            webcamImage.src = data;
+        });
+    </script>

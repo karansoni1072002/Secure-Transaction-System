@@ -1,0 +1,48 @@
+<%- layout('layout/boilerplate.ejs') %>
+
+    <form action="/register" method="POST" novalidate class="validated-form">
+        <div class="mb-3">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Id</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="mobileNumber" class="form-label">Mobile Number</label>
+            <input type="number" maxlength="10" minlength="10" class="form-control" id="mobileNumber"
+                name="mobileNumber" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success btn-block">Register</button>
+    </form>
